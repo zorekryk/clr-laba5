@@ -1,5 +1,6 @@
 #include "pch.h"
 using namespace System;
+
 int ReadInt(String^ prompt) {
 	while (true) {
 		Console::WriteLine(L"{0}", prompt);
@@ -11,6 +12,9 @@ int ReadInt(String^ prompt) {
 		Console::WriteLine(L"Некоректне число, спробуйте знову.");
 	}
 }
+
+// After initial commit comment
+
 int main(array<System::String^>^ args)
 {
 	int N = 0, M = 0;
